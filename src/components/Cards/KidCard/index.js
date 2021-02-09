@@ -1,14 +1,13 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
+import { makeStyles } from "@material-ui/core/styles";
+import "./kidcard.css";
 import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 175,
+    minWidth: 145,
   },
   bullet: {
     display: "inline-block",
@@ -22,29 +21,25 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
 });
-
-export default function SimpleCard() {
+export default function KidCard() {
   const classes = useStyles();
-
   return (
     <Card className={classes.root}>
       <CardContent>
-        <Typography
-          className={classes.title}
-          color="textSecondary"
-          gutterBottom
-        >
+        <Typography className={classes.title} color="textSecondary">
           2020
         </Typography>
         <Typography>
-          <h1>Tech-Blog</h1>
+          <h1>KidTastic</h1>
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          Fun ORM project using seqelize. Log-in and create an account. Post
-          your favorite tech news and share with others who is online.
+          KidTastic is a fun kids website that kids can go on watch videos and
+          use our playground application. Log in with credentials made by a
+          parent and or guardian and enjoy watching handpicked unsolicited
+          videos.
         </Typography>
-        <Typography variant="body2" component="p">
-          <a href="https://github.com/clew-bot/tech-blog">
+        <Typography>
+          <a className="atag" href="https://github.com/clew-bot/KidTastic">
             <svg
               viewBox="0 0 15 15"
               fill="none"
@@ -60,7 +55,10 @@ export default function SimpleCard() {
             Link to repo
           </a>
           <br />
-          <a href="https://agile-ocean-19275.herokuapp.com/">
+          <a
+            className="atag"
+            href="https://evening-thicket-06709.herokuapp.com/"
+          >
             <svg
               viewBox="0 0 15 15"
               fill="none"

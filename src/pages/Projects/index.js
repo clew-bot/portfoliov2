@@ -3,15 +3,17 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import "./portstyle.css";
-import SimpleCard from "../../components/Card";
+import TechCard from "../../components/Cards/TechCard";
+import KidCard from "../../components/Cards/KidCard";
+import FitCard from "../../components/Cards/FitCard";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
   paper: {
-    padding: theme.spacing(2),
+    padding: theme.spacing(),
     textAlign: "center",
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
   },
 }));
 
@@ -23,7 +25,7 @@ export default function Portfolio() {
       <h1 className="firsth1">Check out some of my favorite work!</h1>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>KidTastic</Paper>
+          <h1 className="firstTites">KidTastic</h1>
         </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>
@@ -36,16 +38,15 @@ export default function Portfolio() {
         </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>
-            Kids website that kids can come on, log in and watch videos along
-            with using the playground section.
+            <KidCard />
           </Paper>
         </Grid>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>Techieblogger</Paper>
+          <h1 className="firstTites">Tech-Blog</h1>
         </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>
-            <SimpleCard />
+            <TechCard />
           </Paper>
         </Grid>
         <Grid item xs={6}>
@@ -58,12 +59,12 @@ export default function Portfolio() {
           </Paper>
         </Grid>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>Fitness Tracker</Paper>
+          <h1 className="firstTites">Fitness-Tracker</h1>
         </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>
             <img
-              src="./assets/images/fitnesstracker.png"
+              src="./assets/images/fittracker.png"
               alt="techblog"
               className="portImg"
             />
@@ -71,8 +72,7 @@ export default function Portfolio() {
         </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>
-            Fitness tracker will help reach realistic goals and save progress.
-            Website made using mongoose as main database.
+            <FitCard />
           </Paper>
         </Grid>
       </Grid>
