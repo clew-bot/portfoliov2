@@ -11,7 +11,6 @@ function Homepage() {
         <h1>Software nerd</h1>
         <h1>Developer.</h1>
       </Content>
-      <Footer>Footer</Footer>
     </div>
   );
 }

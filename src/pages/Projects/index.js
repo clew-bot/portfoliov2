@@ -8,7 +8,7 @@ import KidCard from "../../components/Cards/KidCard";
 import FitCard from "../../components/Cards/FitCard";
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 2,
   },
   paper: {
     padding: theme.spacing(),

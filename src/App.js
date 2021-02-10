@@ -11,18 +11,18 @@ import Portfolio from "./pages/Projects";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <h1>Welcome</h1>
       <Router>
         <div>
           <Sidebar />
           <Route exact path="/" component={Homepage} />
           {/* <Route exact path="/about" component={About} /> */}
-          {/* <Route exact path="/books" component={Books} /> */}
+          <Route exact path="/books" component={Books} />
           <Route exact path="/projects" component={Portfolio} />
+          {/* <Footer /> */}
         </div>
       </Router>
     </>

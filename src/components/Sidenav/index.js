@@ -18,7 +18,11 @@ function Sidebar() {
             Projects
           </Link>
         </Nav.Item>
-        <Nav.Item>Books</Nav.Item>
+        <Nav.Item>
+          <Link to="/books" className="">
+            Books
+          </Link>
+        </Nav.Item>
         <Nav.Item>About</Nav.Item>
       </Nav>
     </div>
