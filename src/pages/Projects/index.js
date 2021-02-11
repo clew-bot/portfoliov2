@@ -22,7 +22,9 @@ export default function Portfolio() {
 
   return (
     <div className={classes.root}>
-      <h1 className="firsth1">Check out some of my favorite work!</h1>
+      <h1 className="firsth1">
+        My code projects. Open Source and coded with 💚
+      </h1>
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <h1 className="firstTites">KidTastic</h1>
