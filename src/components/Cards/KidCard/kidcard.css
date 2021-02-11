@@ -1,5 +1,7 @@
-.MuiCardContent-root {
-  background-color: #747980;
+.jisho {
+  background-color: beige;
+  display: "block";
+  width: "30vw";
 }
 
 .atag {

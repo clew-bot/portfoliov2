@@ -19,7 +19,7 @@ function App() {
         <div>
           <Sidebar />
           <Route exact path="/" component={Homepage} />
-          {/* <Route exact path="/about" component={About} /> */}
+          <Route exact path="/about" component={About} />
           <Route exact path="/books" component={Books} />
           <Route exact path="/projects" component={Portfolio} />
           {/* <Footer /> */}

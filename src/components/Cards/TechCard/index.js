@@ -25,7 +25,7 @@ export default function TechCard() {
   const classes = useStyles();
   return (
     <Card className={classes.root}>
-      <CardContent>
+      <CardContent className="jisho">
         <Typography className={classes.title} color="textSecondary">
           2020
         </Typography>

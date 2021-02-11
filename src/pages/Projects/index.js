@@ -26,10 +26,11 @@ export default function Portfolio() {
         My code projects. Open Source and coded with 💚
       </h1>
       <Grid container spacing={3}>
+        {/* when screen is extra small use 12 columns */}
         <Grid item xs={12}>
           <h1 className="firstTites">KidTastic</h1>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6} md={6}>
           <Paper className={classes.paper}>
             <img
               src="./assets/images/kidtastic2.png"
@@ -38,7 +39,7 @@ export default function Portfolio() {
             />
           </Paper>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6} md={6}>
           <Paper className={classes.paper}>
             <KidCard />
           </Paper>
@@ -46,12 +47,12 @@ export default function Portfolio() {
         <Grid item xs={12}>
           <h1 className="firstTites">Tech-Blog</h1>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <TechCard />
           </Paper>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <img
               src="./assets/images/techblog.png"
@@ -63,7 +64,7 @@ export default function Portfolio() {
         <Grid item xs={12}>
           <h1 className="firstTites">Fitness-Tracker</h1>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <img
               src="./assets/images/fittracker.png"
@@ -72,7 +73,7 @@ export default function Portfolio() {
             />
           </Paper>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <FitCard />
           </Paper>

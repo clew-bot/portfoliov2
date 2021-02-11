@@ -6,9 +6,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
-  root: {
-    minWidth: 145,
-  },
+  root: {},
   bullet: {
     display: "inline-block",
     margin: "0 2px",
@@ -25,12 +23,12 @@ export default function KidCard() {
   const classes = useStyles();
   return (
     <Card className={classes.root}>
-      <CardContent>
+      <CardContent className="jisho">
         <Typography className={classes.title} color="textSecondary">
           2020
         </Typography>
         <Typography>
-          <h1>KidTastic</h1>
+          <h1>Kid-Tastic</h1>
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
           KidTastic is a fun kids website that kids can go on watch videos and
