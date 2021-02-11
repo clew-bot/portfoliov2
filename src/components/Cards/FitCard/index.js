@@ -30,7 +30,7 @@ export default function FitCard() {
           2020
         </Typography>
         <Typography>
-          <h1>Employee-Tracker</h1>
+          <h1>Employee-Directory</h1>
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
           Keep track of employees by entering any name in the input. State will

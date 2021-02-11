@@ -48,6 +48,8 @@ export default function Homepage() {
       >
         Loading…
       </iframe>
+
+      <embed src="./assets/pdf/resume.pdf" width="1000px" height="700px" />
     </Card>
   );
 }

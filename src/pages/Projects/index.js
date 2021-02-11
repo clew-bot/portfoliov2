@@ -24,8 +24,9 @@ export default function Portfolio() {
   return (
     <div className={classes.root}>
       <h1 className="firsth1">
-        My code projects. Open Source and coded with 💚
+        👇 My code projects. Open Source and coded with 💚 👇
       </h1>
+
       <Grid container spacing={3}>
         {/* when screen is extra small use 12 columns */}
         <Grid item xs={12}>
