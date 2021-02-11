@@ -9,23 +9,26 @@ import About from "./pages/About";
 import Homepage from "./pages/Home";
 import Portfolio from "./pages/Projects";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Wrapper from "./components/Wrapper";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <>
-      <Router>
+    <Router>
+      <div>
         <div>
           <Sidebar />
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/books" component={Books} />
-          <Route exact path="/projects" component={Portfolio} />
-          {/* <Footer /> */}
+          <Wrapper>
+            <Route exact path="/" component={Homepage} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/books" component={Books} />
+            <Route exact path="/projects" component={Portfolio} />
+          </Wrapper>
+          <Footer />
         </div>
-      </Router>
-    </>
+      </div>
+    </Router>
   );
 }
 

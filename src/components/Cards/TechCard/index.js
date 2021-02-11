@@ -30,14 +30,44 @@ export default function TechCard() {
           2020
         </Typography>
         <Typography>
-          <h1>Tech-Blog</h1>
+          <h1>Budget-Tracker</h1>
         </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          Fun ORM project using seqelize. Log-in and create an account. Post
-          your favorite tech news and share with others who is online.
+        <Typography className={classes.pos} color="textPrimary">
+          Don't ever lose track of expenses! Budget tracker using PWA technology
+          such as webpack, service workers, and caching to create a good
+          experience for the user.
         </Typography>
         <Typography>
-          <a className="atag" href="https://github.com/clew-bot/tech-blog">
+          <br></br>
+          <h2>
+            <em>stack used:</em>
+          </h2>
+          <br></br>
+          <br></br>
+
+          <h5>nodejs</h5>
+          <h5>express</h5>
+          <h5>mongoose</h5>
+          <h5>heroku</h5>
+          <h5>progressive web app features</h5>
+          <br></br>
+          <br></br>
+          <br></br>
+          <iframe
+            src="https://giphy.com/embed/3orieQBBqxckn00KxG"
+            width="480"
+            height="366"
+            frameBorder="0"
+            class="giphy-embed"
+            allowFullScreen
+          ></iframe>
+
+          <br></br>
+          <br></br>
+          <br></br>
+        </Typography>
+        <Typography>
+          <a className="atag" href="https://github.com/clew-bot/budget-tracker">
             <svg
               viewBox="0 0 15 15"
               fill="none"
@@ -53,7 +83,10 @@ export default function TechCard() {
             Link to repo
           </a>
           <br />
-          <a className="atag" href="https://agile-ocean-19275.herokuapp.com/">
+          <a
+            className="atag"
+            href="https://powerful-hamlet-93629.herokuapp.com/"
+          >
             <svg
               viewBox="0 0 15 15"
               fill="none"

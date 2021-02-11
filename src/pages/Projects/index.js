@@ -6,6 +6,7 @@ import "./portstyle.css";
 import TechCard from "../../components/Cards/TechCard";
 import KidCard from "../../components/Cards/KidCard";
 import FitCard from "../../components/Cards/FitCard";
+import Hero from "../../components/Hero";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 2,
@@ -30,49 +31,52 @@ export default function Portfolio() {
         <Grid item xs={12}>
           <h1 className="firstTites">KidTastic</h1>
         </Grid>
-        <Grid item xs={12} lg={6} md={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <img
-              src="./assets/images/kidtastic2.png"
+              src="./assets/images/kider.png"
               alt="kidtastic"
               className="portImg"
             />
           </Paper>
         </Grid>
-        <Grid item xs={12} lg={6} md={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <KidCard />
           </Paper>
         </Grid>
         <Grid item xs={12}>
-          <h1 className="firstTites">Tech-Blog</h1>
+          <h1 className="firstTites">Budget-Tracker</h1>
         </Grid>
         <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <TechCard />
           </Paper>
         </Grid>
+
         <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <img
-              src="./assets/images/techblog.png"
+              src="./assets/images/budget.png"
               alt="techblog"
               className="portImg"
             />
           </Paper>
         </Grid>
         <Grid item xs={12}>
-          <h1 className="firstTites">Fitness-Tracker</h1>
+          <h1 className="firstTites">Employee-Directory</h1>
         </Grid>
+
         <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <img
-              src="./assets/images/fittracker.png"
+              src="./assets/images/employeedi.png"
               alt="techblog"
               className="portImg"
             />
           </Paper>
         </Grid>
+
         <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <FitCard />

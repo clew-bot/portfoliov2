@@ -21,7 +21,6 @@ const useStyles = makeStyles({
 
 export default function Homepage() {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <Card className={classes.root} variant="outlined">
@@ -39,9 +38,6 @@ export default function Homepage() {
           apple related.
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
     </Card>
   );
 }

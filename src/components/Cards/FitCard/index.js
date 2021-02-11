@@ -30,18 +30,35 @@ export default function FitCard() {
           2020
         </Typography>
         <Typography>
-          <h1>Fitness-Tracker</h1>
+          <h1>Employee-Tracker</h1>
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          Realistic Fitness Tracker that will save progress along the way. View
-          last workout, reps, sets, and exercises by workout. This was an
-          assigment during enrollment UCI bootcamp.
+          Keep track of employees by entering any name in the input. State will
+          update upon key pressed giving fast and accurate results. Employees
+          are used from an API and are not real people.
         </Typography>
         <Typography>
-          <a
-            className="atag"
-            href="https://github.com/clew-bot/fitness-tracker"
-          >
+          <br></br>
+          <h2>
+            <em>stack used:</em>
+          </h2>
+          <br></br>
+          <br></br>
+
+          <h5>react</h5>
+          <h5>axios</h5>
+          <h5>gh-pages</h5>
+          <h5>randomuser.me</h5>
+          <br></br>
+          <br></br>
+          <br></br>
+
+          <br></br>
+
+          <br></br>
+        </Typography>
+        <Typography>
+          <a className="atag" href="https://github.com/clew-bot/newEmployee">
             <svg
               viewBox="0 0 15 15"
               fill="none"
@@ -57,10 +74,7 @@ export default function FitCard() {
             Link to repo
           </a>
           <br />
-          <a
-            className="atag"
-            href="https://glacial-lake-51559.herokuapp.com/?id=600f68f049fd050015a9d2c4"
-          >
+          <a className="atag" href="https://clew-bot.github.io/newEmployee/">
             <svg
               viewBox="0 0 15 15"
               fill="none"

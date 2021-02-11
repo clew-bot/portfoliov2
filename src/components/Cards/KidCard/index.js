@@ -30,11 +30,36 @@ export default function KidCard() {
         <Typography>
           <h1>Kid-Tastic</h1>
         </Typography>
-        <Typography className={classes.pos} color="textSecondary">
+        <Typography className={classes.pos} color="textPrimary">
           KidTastic is a fun kids website that kids can go on watch videos and
           use our playground application. Log in with credentials made by a
           parent and or guardian and enjoy watching handpicked unsolicited
           videos.
+        </Typography>
+        <Typography>
+          <br></br>
+          <h2>
+            <em>stack used:</em>
+          </h2>
+          <br></br>
+          <br></br>
+
+          <h5>nodejs</h5>
+          <h5>express</h5>
+          <h5>handlebars</h5>
+          <h5>sequelize</h5>
+          <h5>fabricjs</h5>
+          <h5>heroku</h5>
+          <br></br>
+          <br></br>
+          <br></br>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/2/2f/Jerry_Mouse.png"
+            alt="jerry"
+          />
+          <br></br>
+          <br></br>
+          <br></br>
         </Typography>
         <Typography>
           <a className="atag" href="https://github.com/clew-bot/KidTastic">
