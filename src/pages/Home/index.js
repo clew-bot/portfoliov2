@@ -7,46 +7,54 @@ import Col from "../../components/Col";
 function Homepage() {
   return (
     <div>
-      <Hero backgroundImage="https://i.kym-cdn.com/entries/icons/facebook/000/029/959/Screen_Shot_2019-06-05_at_1.26.32_PM.jpg">
+      <Hero backgroundImage="https://mikeputnamphoto.com/wp-content/uploads/2019/01/Alpine-Reflection-1-0x0.jpg">
         <h1>chad lew</h1>
         <h2>web develobrrrrrr</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>code is the future</h1>
+            <h1>Friend, dad, life-long student, web developer.</h1>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <p>E</p>
-            <p>
-              Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum
-              porttitor. Sed malesuada molestie velit ac viverra. Quisque a
-              ullamcorper purus. Curabitur luctus mi ac mi hendrerit semper.
-              Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-              nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue
-              dictum egestas. Aliquam blandit mi eu urna scelerisque, vitae
-              volutpat ligula ultricies. Maecenas vel porta augue. Fusce mauris
-              ex, dignissim et lacinia ut, tempus eget nibh.
-            </p>
-            <p>
-              Etiam ut massa efficitur, gravida sapien non, condimentum sapien.
-              Suspendisse massa tortor, facilisis in neque sit amet, scelerisque
-              elementum tortor. Nullam eget nibh sit amet odio lobortis
-              ullamcorper. Nulla bibendum magna nec sem pulvinar lobortis.
-              Mauris et imperdiet urna, vitae lobortis dui. Nunc elementum elit
-              mi, non mattis enim congue at. Proin mi lectus, ullamcorper id
-              hendrerit eu, ultricies vitae lacus. Nunc vehicula, erat eget
-              laoreet condimentum, felis ante malesuada leo, nec efficitur diam
-              nisi eget nisi. Cras arcu lacus, tristique in bibendum vitae,
-              elementum eget lorem. Maecenas vestibulum volutpat orci eu
-              pharetra. Praesent vel blandit ante, nec faucibus libero. Sed
-              ultrices lorem ex, eu facilisis libero convallis ac. Vivamus id
-              dapibus eros. Nullam tempor sem rhoncus porta semper. Proin
-              bibendum vulputate nisl, fringilla interdum elit pulvinar eu.
-              Quisque vitae quam dapibus, vestibulum mauris quis, laoreet massa.
-            </p>
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <h4>
+              <em>
+                Thanks for coming to my website. This is a website detailing my
+                profile and projects guided by the navigation bar on top. I have
+                many more projects that I would love to finish and deploy which
+                will be coming soon. This personal website would be the start of
+                the journey of acceptance for work to an employer. I am
+                currently looking for any type of work relating to software
+                development. I'm friendly to work with and love encouraging and
+                working with teammates. I have a 3 year old daughter that I
+                absolutely love spending time and hanging out with (she'll learn
+                to code React one day). Enjoy the website, more updates coming
+                soon.
+              </em>
+            </h4>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h6>
+              Here's to the crazy ones. The misfits. The rebels. The
+              troublemakers. The round pegs in the square holes. The ones who
+              see things differently. They're not fond of rules. And they have
+              no respect for the status quo. You can quote them, disagree with
+              them, glorify or vilify them. About the only thing you can't do is
+              ignore them. Because they change things. They push the human race
+              forward. And while some may see them as the crazy ones, we see
+              genius. Because the people who are crazy enough to think they can
+              change the world, are the ones who do.”
+              <br></br>
+              <br></br>&emsp; &emsp; &emsp; - Steve Jobs, Rob Siltanen
+            </h6>
           </Col>
         </Row>
       </Container>
