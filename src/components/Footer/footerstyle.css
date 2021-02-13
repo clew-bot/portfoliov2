@@ -2,6 +2,9 @@
   min-height: 100px;
   background: #e5e5e5;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer span {
@@ -11,4 +14,10 @@
   right: 0;
   padding: 3px;
   background: #b8b8b8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.shouldveDoneGlobal {
+  color: inherit;
 }

@@ -6,7 +6,6 @@ import "./portstyle.css";
 import TechCard from "../../components/Cards/TechCard";
 import KidCard from "../../components/Cards/KidCard";
 import FitCard from "../../components/Cards/FitCard";
-import Hero from "../../components/Hero";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 2,

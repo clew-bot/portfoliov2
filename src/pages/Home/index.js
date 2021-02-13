@@ -9,7 +9,7 @@ function Homepage() {
     <div>
       <Hero backgroundImage="https://mikeputnamphoto.com/wp-content/uploads/2019/01/Alpine-Reflection-1-0x0.jpg">
         <h1>chad lew</h1>
-        <h2>web develobrrrrrr</h2>
+        <h2>hello world</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>

@@ -1,7 +1,4 @@
-// import logo from "./logo.svg";
-// import "./App.css";
 import React from "react";
-import rsuite from "rsuite";
 import Sidebar from "./components/Sidenav";
 import "rsuite/dist/styles/rsuite-default.css";
 import Books from "./pages/Books";
