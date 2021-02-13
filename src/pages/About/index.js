@@ -43,7 +43,11 @@ export default function Homepage() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Grid item lg={6}>
-            {/* <embed src="./assets/pdf/resume.pdf" width="500px" height="700px" /> */}
+            <embed
+              src="./portfoliov2/assets/pdf/resume.pdf"
+              width="500px"
+              height="700vw"
+            />
           </Grid>
         </Row>
       </Container>

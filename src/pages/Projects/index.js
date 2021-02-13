@@ -35,7 +35,7 @@ export default function Portfolio() {
         <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <img
-              src="./assets/images/kider.png"
+              src="./portfoliov2/assets/images/kider.png"
               alt="kidtastic"
               className="portImg"
             />
@@ -58,7 +58,7 @@ export default function Portfolio() {
         <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <img
-              src="./assets/images/budget.png"
+              src="./portfoliov2/assets/images/budget.png"
               alt="techblog"
               className="portImg"
             />
@@ -71,7 +71,7 @@ export default function Portfolio() {
         <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <img
-              src="./assets/images/employeedi.png"
+              src="./portfoliov2/assets/images/employeedi.png"
               alt="techblog"
               className="portImg"
             />
